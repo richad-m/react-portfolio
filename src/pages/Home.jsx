@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import avatar from "../assets/avatar/avatar1.png";
 
 function Home() {
   return (
@@ -13,9 +14,7 @@ function Home() {
           quis nulla quisquam hic odio totam in, accusantium voluptatibus
           delectus perspiciatis expedita optio!
         </div>
-        <div className="presentation-image">
-          <img src="" alt="" />
-        </div>
+        <img src={avatar} alt="RME" className="presentation-image" />
       </div>
     </div>
   );

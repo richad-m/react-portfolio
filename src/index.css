@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
 
 :root {
-  --color1: #449dd1;
+  --color1: #06527e;
   --color2: #f4a259;
   --color2: #890620;
   --color2: #a28497;
@@ -10,17 +10,21 @@
 body {
   font-family: Roboto;
   font-weight: 300;
+  color: white;
+  text-decoration: none;
 }
 
 .Home {
   text-align: center;
+  background: var(--color1);
+  height: 100%;
 }
 
 .presentation {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .presentation-image {
-  background: var(--color2);
-  width: 50%;
-  height: 100%;
+  width: 22%;
 }
