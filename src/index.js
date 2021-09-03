@@ -5,19 +5,20 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/navbar";
 import FriendsTrip from "./pages/Friendstrip";
 import Footer from "./components/Footer/footer";
+import "./index.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navbar />
     <Router>
+      <Navbar />
       <Route exact path="/">
         <Home />
       </Route>
       <Route path="/friendstrip">
         <FriendsTrip />
       </Route>
+      <Footer />
     </Router>
-    <Footer />
   </React.StrictMode>,
   document.getElementById("root")
 );

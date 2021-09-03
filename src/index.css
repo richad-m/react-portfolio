@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+
+:root {
+  --color1: #449dd1;
+  --color2: #f4a259;
+  --color2: #890620;
+  --color2: #a28497;
+  --color2: #dff3e4;
+}
+body {
+  font-family: Roboto;
+  font-weight: 300;
+}
+
+.Home {
+  text-align: center;
+}
+
+.presentation {
+  display: flex;
+}
+.presentation-image {
+  background: var(--color2);
+  width: 50%;
+  height: 100%;
+}
