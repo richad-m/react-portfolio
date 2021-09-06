@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/navbar";
 import FriendsTrip from "./pages/Friendstrip";
 import Footer from "./components/Footer/footer";
+import SideBar from "./components/Sidebar/sidebar";
 import "./index.css";
 
 ReactDOM.render(

@@ -1,5 +1,7 @@
+@import "../../index.css";
+
 .footer {
-  background: var(--color1);
+  background: var(--color3);
   text-align: center;
   position: fixed;
   bottom: 0;

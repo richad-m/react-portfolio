@@ -1,11 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
 
 :root {
+  /* Colors  */
   --color1: #06527e;
   --color2: #f4a259;
   --color2: #890620;
   --color2: #a28497;
   --color2: #dff3e4;
+  /* Fontsize */
+  --largesize: 2em;
+  --smallsize: 0.75em;
+  --mediumsize: 1.75em;
 }
 body {
   font-family: Roboto;
@@ -16,14 +21,29 @@ body {
 
 .Home {
   text-align: center;
+  display: flex;
   background: var(--color1);
   height: 100vh;
+  font-size: var(--largesize);
+}
+.presentation-title {
+  font-size: var(--largesize);
+  font-weight: bolder;
+}
+
+.presentation-text {
+  font-size: var(--smallsize);
+}
+
+.title-text {
+  width: 60%;
 }
 
 .presentation {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 90%;
 }
 .presentation-image {
   width: 22%;
