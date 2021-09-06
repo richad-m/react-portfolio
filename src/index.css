@@ -37,13 +37,15 @@ body {
 
 .title-text {
   width: 60%;
+  height: 50%;
 }
 
 .presentation {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 90%;
+  width: 100%;
+  height: 50%;
 }
 .presentation-image {
   width: 22%;

@@ -2,11 +2,20 @@
 
 .navbar {
   background: red;
-  font-size: var(--largesize);
+  font-size: var(--mediumsize);
+  display: flex;
+  padding: 0.25em;
 }
 
 .navlinks {
   text-decoration: none;
   color: white;
   font-weight: bolder;
+}
+
+.other-navlinks {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 50%;
 }

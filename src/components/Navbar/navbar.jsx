@@ -4,12 +4,25 @@ import "./navbar.css";
 function Navbar() {
   return (
     <nav className="navbar">
-      <Link to="/" className="navlinks">
-        Home
-      </Link>
-      <Link to="/friendstrip" className="navlinks">
-        Friendstrip
-      </Link>
+      <div className="richad">
+        <Link to="/" className="navlinks">
+          Richad
+        </Link>
+      </div>
+      <div className="other-navlinks">
+        <Link to="/friendstrip" className="navlinks">
+          About
+        </Link>
+        <Link to="/friendstrip" className="navlinks">
+          FriendsTrip
+        </Link>
+        <Link to="/friendstrip" className="navlinks">
+          Skills
+        </Link>
+        <Link to="/friendstrip" className="navlinks">
+          ContactMe
+        </Link>
+      </div>
     </nav>
   );
 }

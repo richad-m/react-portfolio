@@ -4,9 +4,12 @@ import "./sidebar.css";
 function SideBar() {
   return (
     <div className="sidebar">
-      <Link path="www.linkedin.fr">Linkedin</Link>
-      <Link path="www.linkedin.fr">Linkedin</Link>
-      <Link path="www.linkedin.fr">Linkedin</Link>
+      <a href="#">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="www.linkedin.fr">
+        <i class="fab fa-github"></i>
+      </a>
     </div>
   );
 }
